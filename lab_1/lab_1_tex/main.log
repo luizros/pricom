@@ -1,0 +1,550 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  17 MAY 2025 20:59
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/luiz/Documentos/Faculdade/Pricom/pricom/IEEE-conference-template-062824/lab_1_tex/main.tex
+(/home/luiz/Documentos/Faculdade/Pricom/pricom/IEEE-conference-template-062824/lab_1_tex/main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen141
+\@IEEEtrantmpdimenB=\dimen142
+\@IEEEtrantmpdimenC=\dimen143
+\@IEEEtrantmpcountA=\count196
+\@IEEEtrantmpcountB=\count197
+\@IEEEtrantmpcountC=\count198
+\@IEEEtrantmptoksA=\toks17
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
+(/home/luiz/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen144
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen145
+\CLASSINFOnormalsizeunitybaselineskip=\dimen146
+\IEEEnormaljot=\dimen147
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+\IEEEquantizedlength=\dimen148
+\IEEEquantizedlengthdiff=\dimen149
+\IEEEquantizedtextheightdiff=\dimen150
+\IEEEilabelindentA=\dimen151
+\IEEEilabelindentB=\dimen152
+\IEEEilabelindent=\dimen153
+\IEEEelabelindent=\dimen154
+\IEEEdlabelindent=\dimen155
+\IEEElabelindent=\dimen156
+\IEEEiednormlabelsep=\dimen157
+\IEEEiedmathlabelsep=\dimen158
+\IEEEiedtopsep=\skip49
+\c@section=\count199
+\c@subsection=\count266
+\c@subsubsection=\count267
+\c@paragraph=\count268
+\c@IEEEsubequation=\count269
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
+\c@figure=\count270
+\c@table=\count271
+\@IEEEeqnnumcols=\count272
+\@IEEEeqncolcnt=\count273
+\@IEEEsubeqnnumrollback=\count274
+\@IEEEquantizeheightA=\dimen159
+\@IEEEquantizeheightB=\dimen160
+\@IEEEquantizeheightC=\dimen161
+\@IEEEquantizeprevdepth=\dimen162
+\@IEEEquantizemultiple=\count275
+\@IEEEquantizeboxA=\box52
+\@IEEEtmpitemindent=\dimen163
+\IEEEPARstartletwidth=\dimen164
+\c@IEEEbiography=\count276
+\@IEEEtranrubishbin=\box53
+)
+** ATTENTION: Overriding command lockouts (line 2).
+(/home/luiz/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+) (/home/luiz/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+\babel@savecnt=\count277
+\U@D=\dimen165
+\l@unhyphenated=\language1
+ (/home/luiz/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count278
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/luiz/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (/home/luiz/.miktex/texmfs/install/tex/latex/babel-portuges/brazil.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Portuguese' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 53.
+
+Package babel Info: Making " an active character on input line 143.
+)) (/home/luiz/.miktex/texmfs/install/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (/home/luiz/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/home/luiz/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/home/luiz/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen166
+)) (/home/luiz/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen167
+) (/home/luiz/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count279
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count280
+\leftroot@=\count281
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count282
+\DOTSCASE@=\count283
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen168
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count284
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count285
+\dotsspace@=\muskip17
+\c@parentequation=\count286
+\dspbrk@lvl=\count287
+\tag@help=\toks21
+\row@=\count288
+\column@=\count289
+\maxfields@=\count290
+\andhelp@=\toks22
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks23
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/home/luiz/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/home/luiz/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/home/luiz/.miktex/texmfs/install/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+ (/home/luiz/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (/home/luiz/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+\c@ALC@unique=\count291
+\c@ALC@line=\count292
+\c@ALC@rem=\count293
+\c@ALC@depth=\count294
+\ALC@tlm=\skip55
+\algorithmicindent=\skip56
+) (/home/luiz/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/home/luiz/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/home/luiz/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/home/luiz/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/home/luiz/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
+) (/home/luiz/.miktex/texmfs/install/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+) (/home/luiz/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/home/luiz/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/home/luiz/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/home/luiz/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip57
+\f@nch@offset@elh=\skip58
+\f@nch@offset@erh=\skip59
+\f@nch@offset@olh=\skip60
+\f@nch@offset@orh=\skip61
+\f@nch@offset@elf=\skip62
+\f@nch@offset@erf=\skip63
+\f@nch@offset@olf=\skip64
+\f@nch@offset@orf=\skip65
+\f@nch@height=\skip66
+\f@nch@footalignment=\skip67
+\f@nch@widthL=\skip68
+\f@nch@widthC=\skip69
+\f@nch@widthR=\skip70
+\@temptokenb=\toks26
+) (/home/luiz/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count295
+\l__pdf_internal_box=\box56
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+-- Lines per column: 56 (exact).
+(/home/luiz/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count296
+\scratchdimen=\dimen177
+\scratchbox=\box57
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen178
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks28
+) (/home/luiz/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/home/luiz/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)) (sections/introduction.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+ (/home/luiz/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+ (/home/luiz/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+<images/FFT (m(t))_full.png, id=1, 735.9495pt x 338.4645pt>
+File: images/FFT (m(t))_full.png Graphic file (type png)
+<use images/FFT (m(t))_full.png>
+Package pdftex.def Info: images/FFT (m(t))_full.png  used on input line 29.
+(pdftex.def)             Requested size: 258.0pt x 118.65543pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 29--30
+ [][] 
+ []
+
+<images/FFT (c(t))_full.png, id=3, 735.9495pt x 338.4645pt>
+File: images/FFT (c(t))_full.png Graphic file (type png)
+<use images/FFT (c(t))_full.png>
+Package pdftex.def Info: images/FFT (c(t))_full.png  used on input line 37.
+(pdftex.def)             Requested size: 258.0pt x 118.65543pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 37--38
+ [][] 
+ []
+
+<images/FFT (s(t))_full.png, id=4, 742.2129pt x 338.4645pt>
+File: images/FFT (s(t))_full.png Graphic file (type png)
+<use images/FFT (s(t))_full.png>
+Package pdftex.def Info: images/FFT (s(t))_full.png  used on input line 45.
+(pdftex.def)             Requested size: 258.0pt x 117.6535pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 45--46
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 52--53
+[]\OT1/ptm/m/n/10 O diagrama de blocos da modula[][]ao AM-DSB []e
+ []
+
+<images/modulacao_am.png, id=5, 521.95pt x 172.645pt>
+File: images/modulacao_am.png Graphic file (type png)
+<use images/modulacao_am.png>
+Package pdftex.def Info: images/modulacao_am.png  used on input line 56.
+(pdftex.def)             Requested size: 258.0pt x 85.33966pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 56--57
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[1{/home/luiz/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/luiz/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}
+
+
+ <./images/FFT (m(t))_full.png> <./images/FFT (c(t))_full.png>]
+Underfull \hbox (badness 3713) in paragraph at lines 82--83
+\OT1/ptm/m/n/10 modulado. O m[]etodo mais comum para realizar essa
+ []
+
+
+
+<images/demodulacao_am.png, id=24, 547.04375pt x 181.67876pt>
+File: images/demodulacao_am.png Graphic file (type png)
+<use images/demodulacao_am.png>
+Package pdftex.def Info: images/demodulacao_am.png  used on input line 114.
+(pdftex.def)             Requested size: 258.0pt x 85.68564pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 114--115
+ [][] 
+ []
+
+<images/demodulacao_am_pll.png, id=25, 542.025pt x 191.71625pt>
+File: images/demodulacao_am_pll.png Graphic file (type png)
+<use images/demodulacao_am_pll.png>
+Package pdftex.def Info: images/demodulacao_am_pll.png  used on input line 125.
+(pdftex.def)             Requested size: 258.0pt x 91.25923pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 125--126
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (sections/methodology.tex
+
+[2 <./images/FFT (s(t))_full.png> <./images/modulacao_am.png> <./images/demodulacao_am.png>]
+<images/modulacao_gnu_am_dsb_sc.png, id=33, 812.03375pt x 385.44pt>
+File: images/modulacao_gnu_am_dsb_sc.png Graphic file (type png)
+<use images/modulacao_gnu_am_dsb_sc.png>
+Package pdftex.def Info: images/modulacao_gnu_am_dsb_sc.png  used on input line 10.
+(pdftex.def)             Requested size: 258.0pt x 122.46112pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 10--11
+ [][] 
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 18--19
+[]\OT1/ptm/b/n/10 Signal Source\OT1/ptm/m/n/10 : Gera o sinal de mensagem com
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 21--22
+[]\OT1/ptm/b/n/10 QT GUI Range\OT1/ptm/m/n/10 : Permite ajustar a frequ[]encia da
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 30--31
+[]\OT1/ptm/m/n/10 Para mostrar a perda da mensagem pela falta de
+ []
+
+
+Underfull \vbox (badness 3954) has occurred while \output is active []
+
+
+
+<images/demodulacao_gnu_am_dscb_sc.png, id=34, 868.24374pt x 355.3275pt>
+File: images/demodulacao_gnu_am_dscb_sc.png Graphic file (type png)
+<use images/demodulacao_gnu_am_dscb_sc.png>
+Package pdftex.def Info: images/demodulacao_gnu_am_dscb_sc.png  used on input line 40.
+(pdftex.def)             Requested size: 258.0pt x 105.58517pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 40--41
+ [][] 
+ []
+
+) (sections/experiments.tex) (sections/results.tex
+
+[3 <./images/demodulacao_am_pll.png> <./images/modulacao_gnu_am_dsb_sc.png> <./images/demodulacao_gnu_am_dscb_sc.png>]
+<images/sinais_freqe_gnu.png, id=41, 834.11626pt x 368.37625pt>
+File: images/sinais_freqe_gnu.png Graphic file (type png)
+<use images/sinais_freqe_gnu.png>
+Package pdftex.def Info: images/sinais_freqe_gnu.png  used on input line 9.
+(pdftex.def)             Requested size: 258.0pt x 113.9425pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 9--10
+ [][] 
+ []
+
+<images/demodulacao_am_dsb_freq.png, id=42, 834.11626pt x 368.37625pt>
+File: images/demodulacao_am_dsb_freq.png Graphic file (type png)
+<use images/demodulacao_am_dsb_freq.png>
+Package pdftex.def Info: images/demodulacao_am_dsb_freq.png  used on input line 20.
+(pdftex.def)             Requested size: 258.0pt x 113.9425pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 20--21
+ [][] 
+ []
+
+<images/falta_sincronismo_dsb.png, id=43, 767.86874pt x 361.35pt>
+File: images/falta_sincronismo_dsb.png Graphic file (type png)
+<use images/falta_sincronismo_dsb.png>
+Package pdftex.def Info: images/falta_sincronismo_dsb.png  used on input line 31.
+(pdftex.def)             Requested size: 258.0pt x 121.41277pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (sections/discussion.tex) (sections/references.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+[]\OT1/ptm/m/n/8 NETO, Vicente S. Sistemas de Comunica[][]ao - Servi[]os,
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 2--3
+\OT1/ptm/m/n/8 Modula[][]ao e Meios de Transmiss[]ao. Rio de Janeiro: []Erica,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+\OT1/ptm/m/n/8 2015. E-book. p.44. ISBN 9788536522098. Dispon[]^^Pvel em:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+\OT1/ptm/m/n/8 https://integrada.minhabiblioteca.com.br/reader/books/9788536522098/.
+ []
+
+)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+
+
+
+
+[4 <./images/sinais_freqe_gnu.png> <./images/demodulacao_am_dsb_freq.png> <./images/falta_sincronismo_dsb.png>] (main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 5704 strings out of 475460
+ 95623 string characters out of 5766736
+ 510231 words of memory out of 5000000
+ 28623 multiletter control sequences out of 15000+600000
+ 591010 words of font info for 93 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 57i,12n,65p,889b,277s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 552925 bytes).
+PDF statistics:
+ 104 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+
