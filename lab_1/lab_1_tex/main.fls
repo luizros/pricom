@@ -1,6 +1,6 @@
-PWD /home/luiz/Documentos/Faculdade/Pricom/pricom/IEEE-conference-template-062824/lab_1_tex
+PWD /home/luiz/Documentos/Faculdade/Pricom/pricom/lab_1/lab_1_tex
 INPUT /home/luiz/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /home/luiz/Documentos/Faculdade/Pricom/pricom/IEEE-conference-template-062824/lab_1_tex/main.tex
+INPUT /home/luiz/Documentos/Faculdade/Pricom/pricom/lab_1/lab_1_tex/main.tex
 OUTPUT main.log
 INPUT ./IEEEtran.cls
 INPUT IEEEtran.cls
