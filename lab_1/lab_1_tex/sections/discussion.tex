@@ -1,2 +1,48 @@
-\section{Discussão}
+\section{Discussão e Conclusão}
+
+\subsection{Discussão}
+
+Os resultados obtidos nos experimentos de modulação e demodulação \textbf{AM-DSB-SC} e \textbf{AM convencional} confirmam as expectativas teóricas e destacam as diferenças críticas entre os dois métodos:
+
+\begin{itemize}
+    \item \textbf{AM-DSB-SC (Double Sideband Suppressed Carrier)}:
+    \begin{itemize}
+        \item Como demonstrado nas Figuras~\ref{fig:sinais_freq_am_dsb} e~\ref{fig:mensagem_modulada_am_dsb}, a modulação DSB-SC desloca o espectro da mensagem para as bandas laterais em torno da portadora
+        \item A demodulação coerente (Figuras~\ref{fig:demodulacao_am_dsb} e~\ref{fig:mensagem_demodulada_am_dsb}) exige \textbf{sincronismo preciso} de fase e frequência
+        \item Quando esse sincronismo não é atendido (Figuras~\ref{fig:falta_sincronismo_dsb} e~\ref{fig:sinal_sem_sincronismo_dsb}), a mensagem é atenuada ou completamente perdida
+    \end{itemize}
+
+    \item \textbf{AM Convencional}:
+    \begin{itemize}
+        \item Permite demodulação por \textbf{detecção de envoltória}
+        \item O sinal é recuperado mesmo com variações de fase ou frequência da portadora
+        \item Robustez à falta de sincronismo é uma vantagem em aplicações práticas
+    \end{itemize}
+
+    \item \textbf{Eficiência e Aplicações}:
+    \begin{itemize}
+        \item O \textbf{DSB-SC} é mais eficiente em potência, mas requer receptores complexos
+        \item O \textbf{AM convencional} é menos eficiente mas mais simples
+    \end{itemize}
+\end{itemize}
+
+\subsection{Conclusão}
+
+Este trabalho demonstrou experimentalmente os princípios da modulação AM-DSB-SC e AM convencional, destacando:
+
+\begin{itemize}
+    \item A \textbf{necessidade de sincronismo} na demodulação DSB-SC
+    \item A \textbf{insensibilidade à fase} na demodulação AM por detecção de envoltória
+\end{itemize}
+
+As diferenças entre os métodos refletem \textit{trade-offs} entre \textbf{eficiência energética} (DSB-SC) e \textbf{simplicidade do receptor} (AM convencional).
+
+\textbf{Recomendações para Trabalhos Futuros:}
+\begin{itemize}
+    \item Implementar um \textbf{PLL} no receptor DSB-SC
+    \item Explorar técnicas híbridas (ex.: SSB)
+    \item Avaliar o impacto do ruído na demodulação AM convencional
+\end{itemize}
+
+\textbf{Nota Final:} Os resultados validam os fundamentos teóricos e reforçam a importância da escolha do método de modulação com base nas exigências do sistema. O uso do GNU Radio Companion possibilitou uma visualização clara dos efeitos práticos.
 

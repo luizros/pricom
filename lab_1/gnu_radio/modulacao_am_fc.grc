@@ -33,6 +33,27 @@ options:
     state: enabled
 
 blocks:
+- name: fase
+  id: variable_qtgui_range
+  parameters:
+    comment: ''
+    gui_hint: ''
+    label: ''
+    min_len: '200'
+    orient: QtCore.Qt.Horizontal
+    rangeType: float
+    start: '0'
+    step: '0.001'
+    stop: '6.28'
+    value: '1.570796327'
+    widget: counter_slider
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [520, 12.0]
+    rotation: 0
+    state: true
 - name: fc
   id: variable_qtgui_range
   parameters:
@@ -45,7 +66,7 @@ blocks:
     start: '0'
     step: '1'
     stop: '20000'
-    value: '50'
+    value: '5000'
     widget: counter_slider
   states:
     bus_sink: false
@@ -106,7 +127,7 @@ blocks:
     maxoutbuf: '0'
     minoutbuf: '0'
     offset: '0'
-    phase: '0'
+    phase: fase
     samp_rate: samp_rate
     type: float
     waveform: analog.GR_COS_WAVE
@@ -209,7 +230,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [784, 844.0]
+    coordinate: [760, 996.0]
     rotation: 0
     state: true
 - name: blocks_throttle_0_0
@@ -228,7 +249,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [528, 748.0]
+    coordinate: [504, 900.0]
     rotation: 0
     state: true
 - name: blocks_throttle_0_0_0
@@ -284,7 +305,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [728, 900.0]
+    coordinate: [704, 1052.0]
     rotation: 0
     state: true
 - name: epy_block_0
@@ -308,7 +329,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [264, 752.0]
+    coordinate: [240, 904.0]
     rotation: 0
     state: true
 - name: low_pass_filter_0
@@ -332,7 +353,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [464, 836.0]
+    coordinate: [440, 988.0]
     rotation: 0
     state: true
 - name: qtgui_freq_sink_x_0
@@ -369,10 +390,10 @@ blocks:
     fc: '0'
     fftsize: '1024'
     freqhalf: 'True'
-    grid: 'False'
+    grid: 'True'
     gui_hint: ''
     label: Relative Gain
-    label1: ''
+    label1: "Mensagem modulada frequ\xEAncia"
     label10: ''''''
     label2: ''''''
     label3: ''''''
@@ -413,7 +434,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1168, 356.0]
+    coordinate: [808, 412.0]
     rotation: 0
     state: true
 - name: qtgui_freq_sink_x_0_0
@@ -534,7 +555,7 @@ blocks:
     grid: 'False'
     gui_hint: ''
     label: Relative Gain
-    label1: ''
+    label1: "Mensagem demodulada frequ\xEAncia"
     label10: ''''''
     label2: ''''''
     label3: ''''''
@@ -575,7 +596,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1088, 620.0]
+    coordinate: [1064, 772.0]
     rotation: 0
     state: true
 - name: qtgui_time_sink_x_0
@@ -610,7 +631,7 @@ blocks:
     entags: 'True'
     grid: 'False'
     gui_hint: ''
-    label1: Signal 1
+    label1: Mensagem modulada tempo
     label10: Signal 10
     label2: Signal 2
     label3: Signal 3
@@ -631,7 +652,7 @@ blocks:
     marker7: '-1'
     marker8: '-1'
     marker9: '-1'
-    name: '"Tempo modulada frequencia"'
+    name: '"Mensagem modulada tempo"'
     nconnections: '1'
     size: '500'
     srate: samp_rate
@@ -672,7 +693,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [848, 428.0]
+    coordinate: [792, 532.0]
     rotation: 0
     state: true
 - name: qtgui_time_sink_x_0_0
@@ -707,7 +728,7 @@ blocks:
     entags: 'True'
     grid: 'True'
     gui_hint: ''
-    label1: Signal 1
+    label1: Sinal retificado
     label10: Signal 10
     label2: Signal 2
     label3: Signal 3
@@ -728,7 +749,7 @@ blocks:
     marker7: '-1'
     marker8: '-1'
     marker9: '-1'
-    name: '"Retificado"'
+    name: '"Sinal retificado"'
     nconnections: '1'
     size: '1024'
     srate: samp_rate
@@ -769,7 +790,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [720, 724.0]
+    coordinate: [696, 876.0]
     rotation: 0
     state: true
 - name: qtgui_time_sink_x_0_0_0
@@ -804,7 +825,7 @@ blocks:
     entags: 'True'
     grid: 'True'
     gui_hint: ''
-    label1: Signal 1
+    label1: Mensagem Recuperada
     label10: Signal 10
     label2: Signal 2
     label3: Signal 3
@@ -866,7 +887,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1128, 804.0]
+    coordinate: [1104, 956.0]
     rotation: 0
     state: true
 - name: qtgui_time_sink_x_0_1
@@ -901,7 +922,7 @@ blocks:
     entags: 'True'
     grid: 'True'
     gui_hint: ''
-    label1: Signal 1
+    label1: Mensagem tempo
     label10: Signal 10
     label2: Signal 2
     label3: Signal 3
@@ -1002,7 +1023,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [872, 332.0]
+    coordinate: [848, 348.0]
     rotation: 0
     state: true
 - name: virtual_source_0
@@ -1041,7 +1062,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [24, 900.0]
+    coordinate: [32, 1012.0]
     rotation: 0
     state: true
 

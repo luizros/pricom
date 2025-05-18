@@ -6,9 +6,39 @@
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
 \usepackage{textcomp}
 \usepackage{xcolor}
 \usepackage{fancyhdr}
+\usepackage{listings}
+\renewcommand{\lstlistingname}{Código} % Altera "Listing" para "Código"
+\usepackage{xcolor} % Para cores
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{white},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -27,22 +57,24 @@ luizrodriguesesilva@outlook.com.br}
 \maketitle
 
 \fancyhead{}
-\fancyhead[L]{Relatório de Modulação AM}
+\fancyhead[L]{Relatório 1 - Modulação em Amplitude \\ Pricípios de Comunicação para Engenharia}
 
 \begin{abstract}
 Este trabalho aborda a modulação em amplitude (AM), uma técnica clássica de transmissão de sinais analógicos, e suas variantes: AM convencional e AM com portadora suprimida (SC). São realizados dois experimentos utilizando o GNU Radio, nos quais são implementados e analisados tanto a modulação quanto a demodulação de sinais em ambas as técnicas. O objetivo é compreender, na prática, os conceitos teóricos estudados sobre modulação AM, observando as diferenças de desempenho e características entre os métodos, bem como os desafios envolvidos no processo de demodulação.
 \end{abstract}
 
 \begin{IEEEkeywords}
-component, formatting, style, styling, insert.
+modulação em amplitude, AM, portadora suprimida, SC, GNU Radio, transmissão analógica, demodulação, análise de sinais.
 \end{IEEEkeywords}
 
 \input{sections/introduction}
 \input{sections/methodology}
-\input{sections/experiments}
+% \input{sections/experiments}
 \input{sections/results}
 \input{sections/discussion}
 \input{sections/references}
+\input{sections/apendices}
 
 \vspace{12pt}
 \end{document}
+

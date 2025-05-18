@@ -196,11 +196,89 @@ A geração de um sinal AM pode ser feita utilziando um gerador de onda quadrada
 \label{fig:diagrama_blocos_am_convencional}
 \end{figure}
 
-\subsection{demodulacao AM}
+\subsection{Demodulação AM}
 
-Existem diversas tencnias para demodular um sinal AM, neste trabalho iremos utilizar o detector de envoltoria. Basicamente
-consiste em usar um circuito com um diodo e um filtro passa baixa.
+A demodulação de sinais AM convencionais pode ser realizada de forma simples utilizando um detector de envoltória, dispensando a necessidade de demodulação síncrona. O detector de envoltória é composto basicamente por um diodo e um circuito RC (filtro passa-baixa), como ilustrado na Figura~\ref{fig:circuito_demodulador_am}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.3\textwidth]{images/demodulacao_am_circuito.png}
+\caption{Circuito do detector de envoltória para demodulação AM. Fonte: Autor} 
+\label{fig:circuito_demodulador_am}
+\end{figure}
+
+O funcionamento é simples: durante o semiciclo positivo do sinal de entrada, o diodo conduz e o capacitor carrega até o valor de pico do sinal. Quando o sinal cai abaixo da tensão do capacitor, o diodo se bloqueia e o capacitor descarrega lentamente pelo resistor, acompanhando a envoltória do sinal modulado. O filtro RC elimina as componentes de alta frequência, recuperando o sinal mensagem. Para remover a componente DC basta usar um transformador.
+
+A escolha do valor da constante de tempo $RC$ é fundamental: se $RC$ for muito pequeno, o capacitor descarrega rapidamente e não acompanha a envoltória; se for muito grande, a descarga é lenta e o sinal fica distorcido. O valor ideal de $RC$ deve satisfazer:
+\[
+\frac{1}{f_c} \ll RC \ll \frac{1}{W}
+\]
+onde $f_c$ é a frequência da portadora e $W$ a largura de banda do sinal mensagem. A Figura~\ref{fig:envoltoria_rc_errado} mostra o efeito de um $RC$ inadequado, enquanto a Figura~\ref{fig:envoltoria_rc_correto} ilustra o funcionamento correto.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.3\textwidth]{images/envoltoria_rc_errado.png}
+\caption{Envoltória para um RC fora do intervalo ideal. Fonte: \cite{b13}} 
+\label{fig:envoltoria_rc_errado}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.3\textwidth]{images/envoltoria_rc_correto.png}
+\caption{Envoltória para um RC dentro do intervalo ideal. Fonte: \cite{b13}} 
+\label{fig:envoltoria_rc_correto}
+\end{figure}
 
 
 
+\section{Sincronismo de Fase em AM-DSB-SC}
 
+A demodulação coerente do sinal AM-DSB-SC exige perfeito sincronismo entre a fase da portadora do transmissor ($\phi_c$) e do oscilador local no receptor ($\hat{\phi}_c$). O processo pode ser descrito por:
+
+\subsection{Modulação}
+O sinal modulado é gerado por:
+\begin{equation}
+    s(t) = m(t) \cdot A_c \cos(2\pi f_c t + \phi_c)
+\end{equation}
+onde:
+\begin{itemize}
+    \item $m(t)$: sinal da mensagem
+    \item $A_c$: amplitude da portadora
+    \item $f_c$: frequência da portadora
+    \item $\phi_c$: fase da portadora no transmissor
+\end{itemize}
+
+\subsection{Demodulação}
+O receptor multiplica pelo oscilador local:
+\begin{equation}
+    \hat{c}(t) = \cos(2\pi f_c t + \hat{\phi}_c)
+\end{equation}
+
+Resultando em:
+\begin{equation}
+    y(t) = s(t) \cdot \hat{c}(t) = \frac{A_c}{2} m(t) \left[ \cos(\phi_c - \hat{\phi}_c) + \cos(4\pi f_c t + \phi_c + \hat{\phi}_c) \right]
+\end{equation}
+
+Após filtragem passa-baixa:
+\begin{equation}
+    y_{\text{final}}(t) = \frac{A_c}{2} m(t) \cos(\Delta \phi)
+\end{equation}
+onde $\Delta \phi = \phi_c - \hat{\phi}_c$ é o erro de fase.
+
+\subsection{Efeitos do Erro de Fase}
+\begin{itemize}
+    \item \textbf{Sincronismo perfeito} ($\Delta \phi = 0^\circ$):
+    \begin{equation}
+        y_{\text{final}}(t) = \frac{A_c}{2} m(t)
+    \end{equation}
+    
+    \item \textbf{Erro de fase genérico}:
+    \begin{equation}
+        y_{\text{final}}(t) = \frac{A_c}{2} m(t) \cos(\Delta \phi)
+    \end{equation}
+    
+    \item \textbf{Caso crítico} ($\Delta \phi = 90^\circ$):
+    \begin{equation}
+        y_{\text{final}}(t) = 0
+    \end{equation}
+\end{itemize}

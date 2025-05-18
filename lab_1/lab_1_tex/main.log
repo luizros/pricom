@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  17 MAY 2025 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.1)  18 MAY 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -240,6 +240,113 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen175
 \Gin@req@width=\dimen176
+) (/home/luiz/.miktex/texmfs/install/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/home/luiz/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+ (/home/luiz/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+) (/home/luiz/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/home/luiz/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/luiz/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (/home/luiz/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/home/luiz/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/home/luiz/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (/home/luiz/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/home/luiz/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/home/luiz/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/home/luiz/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/home/luiz/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count295
+) (/home/luiz/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count296
+) (/home/luiz/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen177
+\Hy@linkcounter=\count297
+\Hy@pagecounter=\count298
+ (/home/luiz/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/home/luiz/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count299
+ (/home/luiz/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count300
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen178
+ (/home/luiz/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/home/luiz/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count301
+\Field@Width=\dimen179
+\Fld@charsize=\dimen180
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/home/luiz/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count302
+\c@Item=\count303
+\c@Hfootnote=\count304
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/home/luiz/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+ (/home/luiz/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count305
+\c@bookmark@seq@number=\count306
+ (/home/luiz/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/home/luiz/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip57
 ) (/home/luiz/.miktex/texmfs/install/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 ) (/home/luiz/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
@@ -260,63 +367,103 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (/home/luiz/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip57
-\f@nch@offset@elh=\skip58
-\f@nch@offset@erh=\skip59
-\f@nch@offset@olh=\skip60
-\f@nch@offset@orh=\skip61
-\f@nch@offset@elf=\skip62
-\f@nch@offset@erf=\skip63
-\f@nch@offset@olf=\skip64
-\f@nch@offset@orf=\skip65
-\f@nch@height=\skip66
-\f@nch@footalignment=\skip67
-\f@nch@widthL=\skip68
-\f@nch@widthC=\skip69
-\f@nch@widthR=\skip70
+\f@nch@headwidth=\skip58
+\f@nch@offset@elh=\skip59
+\f@nch@offset@erh=\skip60
+\f@nch@offset@olh=\skip61
+\f@nch@offset@orh=\skip62
+\f@nch@offset@elf=\skip63
+\f@nch@offset@erf=\skip64
+\f@nch@offset@olf=\skip65
+\f@nch@offset@orf=\skip66
+\f@nch@height=\skip67
+\f@nch@footalignment=\skip68
+\f@nch@widthL=\skip69
+\f@nch@widthC=\skip70
+\f@nch@widthR=\skip71
 \@temptokenb=\toks26
-) (/home/luiz/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+) (/home/luiz/.miktex/texmfs/install/tex/latex/listings/listings.sty
+\lst@mode=\count307
+\lst@gtempboxa=\box56
+\lst@token=\toks27
+\lst@length=\count308
+\lst@currlwidth=\dimen181
+\lst@column=\count309
+\lst@pos=\count310
+\lst@lostspace=\dimen182
+\lst@width=\dimen183
+\lst@newlines=\count311
+\lst@lineno=\count312
+\lst@maxwidth=\dimen184
+ (/home/luiz/.miktex/texmfs/install/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (/home/luiz/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count313
+\lst@skipnumbers=\count314
+\lst@framebox=\box57
+) (/home/luiz/.miktex/texmfs/install/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (/home/luiz/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count295
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count315
+\l__pdf_internal_box=\box58
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 -- Lines per column: 56 (exact).
 (/home/luiz/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
-\scratchdimen=\dimen177
-\scratchbox=\box57
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count299
-\MPscratchDim=\dimen178
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count316
+\scratchdimen=\dimen185
+\scratchbox=\box59
+\nofMPsegments=\count317
+\nofMParguments=\count318
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen186
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
+\everyMPtoPDFconversion=\toks29
 ) (/home/luiz/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/home/luiz/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)) (sections/introduction.tex
+))
+Package hyperref Info: Link coloring OFF on input line 46.
+ (main.out) (main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+\c@lstlisting=\count322
+
+Underfull \hbox (badness 1881) in paragraph at lines 66--68
+[]\OT1/ptm/b/it/9 Index Terms\OT1/ptm/b/n/9 ---modula[][]ao em amplitude, AM, portadora
+ []
+
+(sections/introduction.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
  (/home/luiz/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -326,7 +473,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-<images/FFT (m(t))_full.png, id=1, 735.9495pt x 338.4645pt>
+<images/FFT (m(t))_full.png, id=115, 735.9495pt x 338.4645pt>
 File: images/FFT (m(t))_full.png Graphic file (type png)
 <use images/FFT (m(t))_full.png>
 Package pdftex.def Info: images/FFT (m(t))_full.png  used on input line 29.
@@ -336,7 +483,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 29--30
  [][] 
  []
 
-<images/FFT (c(t))_full.png, id=3, 735.9495pt x 338.4645pt>
+<images/FFT (c(t))_full.png, id=117, 735.9495pt x 338.4645pt>
 File: images/FFT (c(t))_full.png Graphic file (type png)
 <use images/FFT (c(t))_full.png>
 Package pdftex.def Info: images/FFT (c(t))_full.png  used on input line 37.
@@ -346,7 +493,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 37--38
  [][] 
  []
 
-<images/FFT (s(t))_full.png, id=4, 742.2129pt x 338.4645pt>
+<images/FFT (s(t))_full.png, id=118, 742.2129pt x 338.4645pt>
 File: images/FFT (s(t))_full.png Graphic file (type png)
 <use images/FFT (s(t))_full.png>
 Package pdftex.def Info: images/FFT (s(t))_full.png  used on input line 45.
@@ -364,7 +511,7 @@ Underfull \hbox (badness 5893) in paragraph at lines 52--53
 []\OT1/ptm/m/n/10 O diagrama de blocos da modula[][]ao AM-DSB []e
  []
 
-<images/modulacao_am.png, id=5, 521.95pt x 172.645pt>
+<images/modulacao_am.png, id=120, 521.95pt x 172.645pt>
 File: images/modulacao_am.png Graphic file (type png)
 <use images/modulacao_am.png>
 Package pdftex.def Info: images/modulacao_am.png  used on input line 56.
@@ -389,7 +536,7 @@ Underfull \hbox (badness 3713) in paragraph at lines 82--83
 
 
 
-<images/demodulacao_am.png, id=24, 547.04375pt x 181.67876pt>
+<images/demodulacao_am.png, id=150, 547.04375pt x 181.67876pt>
 File: images/demodulacao_am.png Graphic file (type png)
 <use images/demodulacao_am.png>
 Package pdftex.def Info: images/demodulacao_am.png  used on input line 114.
@@ -399,7 +546,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 114--115
  [][] 
  []
 
-<images/demodulacao_am_pll.png, id=25, 542.025pt x 191.71625pt>
+<images/demodulacao_am_pll.png, id=152, 542.025pt x 191.71625pt>
 File: images/demodulacao_am_pll.png Graphic file (type png)
 <use images/demodulacao_am_pll.png>
 Package pdftex.def Info: images/demodulacao_am_pll.png  used on input line 125.
@@ -420,7 +567,7 @@ Underfull \hbox (badness 4120) in paragraph at lines 133--134
 
 
 [2 <./images/FFT (s(t))_full.png> <./images/modulacao_am.png> <./images/demodulacao_am.png>]
-<images/envoltoria.png, id=33, 292.09125pt x 222.8325pt>
+<images/envoltoria.png, id=171, 292.09125pt x 222.8325pt>
 File: images/envoltoria.png Graphic file (type png)
 <use images/envoltoria.png>
 Package pdftex.def Info: images/envoltoria.png  used on input line 145.
@@ -429,43 +576,95 @@ Package pdftex.def Info: images/envoltoria.png  used on input line 145.
 
 
 Overfull \hbox (12.6044pt too wide) detected at line 179
-[]\OML/cmm/m/it/10 U\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) = [][\OML/cmm/m/it/10 M[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 M[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 )] + [][\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 )]
+[][][]\OML/cmm/m/it/10 U\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) = [][\OML/cmm/m/it/10 M[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 M[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 )] + [][\OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 ^^N\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 )]
  []
 
-<images/espectro_am.png, id=34, 327.2225pt x 214.8025pt>
+<images/espectro_am.png, id=173, 327.2225pt x 214.8025pt>
 File: images/espectro_am.png Graphic file (type png)
 <use images/espectro_am.png>
 Package pdftex.def Info: images/espectro_am.png  used on input line 185.
 (pdftex.def)             Requested size: 154.80157pt x 101.61598pt.
-) (sections/methodology.tex
-<images/modulacao_gnu_am_dsb_sc.png, id=35, 812.03375pt x 385.44pt>
-File: images/modulacao_gnu_am_dsb_sc.png Graphic file (type png)
-<use images/modulacao_gnu_am_dsb_sc.png>
-Package pdftex.def Info: images/modulacao_gnu_am_dsb_sc.png  used on input line 10.
-(pdftex.def)             Requested size: 258.0pt x 122.46112pt.
+<images/blocos_amd_con.png, id=174, 602.25pt x 229.85875pt>
+File: images/blocos_amd_con.png Graphic file (type png)
+<use images/blocos_amd_con.png>
+Package pdftex.def Info: images/blocos_amd_con.png  used on input line 194.
+(pdftex.def)             Requested size: 154.80157pt x 59.08142pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 10--11
+Underfull \hbox (badness 3128) in paragraph at lines 201--202
+\OT1/ptm/m/n/10 realizada de forma simples utilizando um detector de
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 201--202
+\OT1/ptm/m/n/10 envolt[]oria, dispensando a necessidade de demodula[][]ao
+ []
+
+<images/demodulacao_am_circuito.png, id=176, 524.96124pt x 222.8325pt>
+File: images/demodulacao_am_circuito.png Graphic file (type png)
+<use images/demodulacao_am_circuito.png>
+Package pdftex.def Info: images/demodulacao_am_circuito.png  used on input line 205.
+(pdftex.def)             Requested size: 154.80157pt x 65.70781pt.
+
+
+[3 <./images/demodulacao_am_pll.png> <./images/envoltoria.png> <./images/espectro_am.png> <./images/blocos_amd_con.png (PNG copy)> <./images/demodulacao_am_circuito.png>]
+Underfull \hbox (badness 2875) in paragraph at lines 212--213
+[]\OT1/ptm/m/n/10 A escolha do valor da constante de tempo $\OML/cmm/m/it/10 RC$ []\OT1/ptm/m/n/10 e
+ []
+
+<images/envoltoria_rc_errado.png, id=198, 403.5075pt x 292.09125pt>
+File: images/envoltoria_rc_errado.png Graphic file (type png)
+<use images/envoltoria_rc_errado.png>
+Package pdftex.def Info: images/envoltoria_rc_errado.png  used on input line 220.
+(pdftex.def)             Requested size: 154.80157pt x 112.05656pt.
+<images/envoltoria_rc_correto.png, id=200, 399.4925pt x 283.0575pt>
+File: images/envoltoria_rc_correto.png Graphic file (type png)
+<use images/envoltoria_rc_correto.png>
+Package pdftex.def Info: images/envoltoria_rc_correto.png  used on input line 227.
+(pdftex.def)             Requested size: 154.80157pt x 109.68364pt.
+
+Underfull \hbox (badness 1406) in paragraph at lines 236--237
+[]\OT1/ptm/m/n/10 A demodula[][]ao coerente do sinal AM-DSB-SC exige
+ []
+
+
+
+
+Overfull \hbox (26.13162pt too wide) detected at line 260
+[][][]\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 s\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = []\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) []
+ []
+
+) (sections/methodology.tex
+<images/mod_am_sc_gnu.png, id=203, 890.32625pt x 393.47pt>
+File: images/mod_am_sc_gnu.png Graphic file (type png)
+<use images/mod_am_sc_gnu.png>
+Package pdftex.def Info: images/mod_am_sc_gnu.png  used on input line 11.
+(pdftex.def)             Requested size: 258.0pt x 114.01932pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 18--19
+Underfull \hbox (badness 3646) in paragraph at lines 19--20
 []\OT1/ptm/b/n/10 Signal Source\OT1/ptm/m/n/10 : Gera o sinal de mensagem com
  []
 
 
 
-[3 <./images/demodulacao_am_pll.png> <./images/envoltoria.png> <./images/espectro_am.png> <./images/modulacao_gnu_am_dsb_sc.png>]
-Underfull \hbox (badness 1968) in paragraph at lines 21--22
+[4 <./images/envoltoria_rc_errado.png> <./images/envoltoria_rc_correto.png> <./images/mod_am_sc_gnu.png>]
+Underfull \hbox (badness 1968) in paragraph at lines 22--23
 []\OT1/ptm/b/n/10 QT GUI Range\OT1/ptm/m/n/10 : Permite ajustar a frequ[]encia da
  []
 
-
-Underfull \hbox (badness 4660) in paragraph at lines 30--31
-[]\OT1/ptm/m/n/10 Para mostrar a perda da mensagem pela falta de
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 30.
+(/home/luiz/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \hbox (badness 1478) in paragraph at lines 34--35
+[]\OT1/ptm/m/n/10 Implementou-se a demodula[][]ao do sinal AM-DSB-SC
  []
 
-<images/demodulacao_gnu_am_dscb_sc.png, id=43, 868.24374pt x 355.3275pt>
+<images/demodulacao_gnu_am_dscb_sc.png, id=223, 868.24374pt x 355.3275pt>
 File: images/demodulacao_gnu_am_dscb_sc.png Graphic file (type png)
 <use images/demodulacao_gnu_am_dscb_sc.png>
 Package pdftex.def Info: images/demodulacao_gnu_am_dscb_sc.png  used on input line 40.
@@ -477,41 +676,151 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 40--41
 
 
 
-) (sections/experiments.tex) (sections/results.tex
-<images/sinais_freqe_gnu.png, id=44, 834.11626pt x 368.37625pt>
+
+Underfull \hbox (badness 1803) in paragraph at lines 68--69
+[]\OT1/ptm/b/n/10 Add\OT1/ptm/m/n/10 : Soma uma constante DC de 1 ao sinal de
+ []
+
+<images/convecional_gnu.png, id=225, 704.6325pt x 473.77pt>
+File: images/convecional_gnu.png Graphic file (type png)
+<use images/convecional_gnu.png>
+Package pdftex.def Info: images/convecional_gnu.png  used on input line 80.
+(pdftex.def)             Requested size: 258.0pt x 173.47041pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 80--81
+ [][] 
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 94--95
+[]\OT1/ptm/b/n/10 QT GUI Time/Frequency Sink\OT1/ptm/m/n/10 : Visualiza[][]ao dos
+ []
+
+
+
+[5 <./images/demodulacao_gnu_am_dscb_sc.png> <./images/convecional_gnu.png>] (/home/luiz/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 102.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 102.
+ (/home/luiz/.miktex/texmfs/install/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<images/demodulcao_am_convencional_gnu.png, id=236, 890.32625pt x 276.03125pt>
+File: images/demodulcao_am_convencional_gnu.png Graphic file (type png)
+<use images/demodulcao_am_convencional_gnu.png>
+Package pdftex.def Info: images/demodulcao_am_convencional_gnu.png  used on input line 126.
+(pdftex.def)             Requested size: 258.0pt x 79.98804pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 126--127
+ [][] 
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 143--144
+[]\OT1/ptm/m/n/10 Ajustou-se a frequ[]encia da portadora para valores
+ []
+
+) (sections/results.tex
+
+<images/sinais_freqe_gnu.png, id=238, 834.11626pt x 368.37625pt>
 File: images/sinais_freqe_gnu.png Graphic file (type png)
 <use images/sinais_freqe_gnu.png>
 Package pdftex.def Info: images/sinais_freqe_gnu.png  used on input line 9.
-(pdftex.def)             Requested size: 258.0pt x 113.9425pt.
+(pdftex.def)             Requested size: 206.39685pt x 91.1495pt.
+<images/mensagem_dsb.png, id=239, 782.925pt x 283.0575pt>
+File: images/mensagem_dsb.png Graphic file (type png)
+<use images/mensagem_dsb.png>
+Package pdftex.def Info: images/mensagem_dsb.png  used on input line 16.
+(pdftex.def)             Requested size: 258.0pt x 93.27536pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 9--10
+Overfull \hbox (6.0pt too wide) in paragraph at lines 16--17
  [][] 
  []
 
-<images/demodulacao_am_dsb_freq.png, id=45, 834.11626pt x 368.37625pt>
+<images/mensagem_modulada_gnu.png, id=240, 770.88pt x 273.02pt>
+File: images/mensagem_modulada_gnu.png Graphic file (type png)
+<use images/mensagem_modulada_gnu.png>
+Package pdftex.def Info: images/mensagem_modulada_gnu.png  used on input line 23.
+(pdftex.def)             Requested size: 206.39685pt x 73.09566pt.
+<images/demodulacao_am_dsb_freq.png, id=242, 834.11626pt x 368.37625pt>
 File: images/demodulacao_am_dsb_freq.png Graphic file (type png)
 <use images/demodulacao_am_dsb_freq.png>
-Package pdftex.def Info: images/demodulacao_am_dsb_freq.png  used on input line 20.
-(pdftex.def)             Requested size: 258.0pt x 113.9425pt.
+Package pdftex.def Info: images/demodulacao_am_dsb_freq.png  used on input line 34.
+(pdftex.def)             Requested size: 206.39685pt x 91.1495pt.
+<images/mensagem_demodulada.png, id=243, 782.925pt x 283.0575pt>
+File: images/mensagem_demodulada.png Graphic file (type png)
+<use images/mensagem_demodulada.png>
+Package pdftex.def Info: images/mensagem_demodulada.png  used on input line 41.
+(pdftex.def)             Requested size: 206.39685pt x 74.61684pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 20--21
- [][] 
- []
 
-
-
-[4 <./images/demodulacao_gnu_am_dscb_sc.png> <./images/sinais_freqe_gnu.png> <./images/demodulacao_am_dsb_freq.png>]
-<images/falta_sincronismo_dsb.png, id=52, 767.86874pt x 361.35pt>
+[6 <./images/demodulcao_am_convencional_gnu.png> <./images/sinais_freqe_gnu.png> <./images/mensagem_dsb.png> <./images/mensagem_modulada_gnu.png>]
+<images/falta_sincronismo_dsb.png, id=278, 726.715pt x 375.4025pt>
 File: images/falta_sincronismo_dsb.png Graphic file (type png)
 <use images/falta_sincronismo_dsb.png>
-Package pdftex.def Info: images/falta_sincronismo_dsb.png  used on input line 31.
-(pdftex.def)             Requested size: 258.0pt x 121.41277pt.
+Package pdftex.def Info: images/falta_sincronismo_dsb.png  used on input line 51.
+(pdftex.def)             Requested size: 206.39685pt x 106.61848pt.
+<images/sinal_sem_sincronismo_dsb.png, id=280, 804.00375pt x 374.39874pt>
+File: images/sinal_sem_sincronismo_dsb.png Graphic file (type png)
+<use images/sinal_sem_sincronismo_dsb.png>
+Package pdftex.def Info: images/sinal_sem_sincronismo_dsb.png  used on input line 60.
+(pdftex.def)             Requested size: 206.39685pt x 96.10739pt.
+<images/distorcao_dsb.png, id=282, 804.00375pt x 374.39874pt>
+File: images/distorcao_dsb.png Graphic file (type png)
+<use images/distorcao_dsb.png>
+Package pdftex.def Info: images/distorcao_dsb.png  used on input line 69.
+(pdftex.def)             Requested size: 206.39685pt x 96.10739pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 31--32
- [][] 
+Underfull \hbox (badness 2245) in paragraph at lines 76--77
+[]\OT1/ptm/m/n/10 A mensagem enviada corresponde a um cosseno de
  []
 
-) (sections/discussion.tex) (sections/references.tex
+<images/mensagem_am_gnu.png, id=283, 771.88374pt x 372.39125pt>
+File: images/mensagem_am_gnu.png Graphic file (type png)
+<use images/mensagem_am_gnu.png>
+Package pdftex.def Info: images/mensagem_am_gnu.png  used on input line 80.
+(pdftex.def)             Requested size: 206.39685pt x 99.57532pt.
+<images/envoltoria_gnu.png, id=284, 838.13126pt x 306.14375pt>
+File: images/envoltoria_gnu.png Graphic file (type png)
+<use images/envoltoria_gnu.png>
+Package pdftex.def Info: images/envoltoria_gnu.png  used on input line 89.
+(pdftex.def)             Requested size: 206.39685pt x 75.38658pt.
+
+
+<images/mensagem_am_modulada_gnu.png, id=285, 594.22pt x 388.45125pt>
+File: images/mensagem_am_modulada_gnu.png Graphic file (type png)
+<use images/mensagem_am_modulada_gnu.png>
+Package pdftex.def Info: images/mensagem_am_modulada_gnu.png  used on input line 98.
+(pdftex.def)             Requested size: 206.39685pt x 134.92268pt.
+<images/retificado_gnu.png, id=286, 703.62875pt x 282.05376pt>
+File: images/retificado_gnu.png Graphic file (type png)
+<use images/retificado_gnu.png>
+Package pdftex.def Info: images/retificado_gnu.png  used on input line 109.
+(pdftex.def)             Requested size: 206.39685pt x 82.7317pt.
+<images/mensagem_demodulada_gnu_espectro.png, id=287, 460.72125pt x 396.48125pt>
+File: images/mensagem_demodulada_gnu_espectro.png Graphic file (type png)
+<use images/mensagem_demodulada_gnu_espectro.png>
+Package pdftex.def Info: images/mensagem_demodulada_gnu_espectro.png  used on input line 118.
+(pdftex.def)             Requested size: 206.39685pt x 177.61633pt.
+
+
+[7 <./images/demodulacao_am_dsb_freq.png> <./images/mensagem_demodulada.png> <./images/falta_sincronismo_dsb.png> <./images/sinal_sem_sincronismo_dsb.png> <./images/distorcao_dsb.png> <./images/mensagem_am_gnu.png> <./images/envoltoria_gnu.png>]
+<images/mesagem_enviada_recuperada_am.png, id=306, 851.18pt x 538.01pt>
+File: images/mesagem_enviada_recuperada_am.png Graphic file (type png)
+<use images/mesagem_enviada_recuperada_am.png>
+Package pdftex.def Info: images/mesagem_enviada_recuperada_am.png  used on input line 127.
+(pdftex.def)             Requested size: 206.39685pt x 130.45494pt.
+) (sections/discussion.tex
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 44--45
+[]\OT1/ptm/m/n/10 Avaliar o impacto do ru[]^^Pdo na demodula[][]ao AM
+ []
+
+
+
+[8 <./images/mensagem_am_modulada_gnu.png> <./images/retificado_gnu.png> <./images/mensagem_demodulada_gnu_espectro.png> <./images/mesagem_enviada_recuperada_am.png>]) (sections/references.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 []\OT1/ptm/m/n/8 NETO, Vicente S. Sistemas de Comunica[][]ao - Servi[]os,
  []
@@ -531,7 +840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 \OT1/ptm/m/n/8 https://integrada.minhabiblioteca.com.br/reader/books/9788536522098/.
  []
 
-)
+) (sections/apendices.tex)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -547,26 +856,28 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[5
+[9
 
- <./images/falta_sincronismo_dsb.png>] (main.aux)
+] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 7DFD9D379D9E02DE72045D46893B1932;5536.
  ) 
 Here is how much of TeX's memory you used:
- 5720 strings out of 475460
- 95718 string characters out of 5766736
- 510279 words of memory out of 5000000
- 28639 multiletter control sequences out of 15000+600000
- 591010 words of font info for 93 fonts, out of 8000000 for 9000
+ 14931 strings out of 475460
+ 236671 string characters out of 5766736
+ 934933 words of memory out of 5000000
+ 37609 multiletter control sequences out of 15000+600000
+ 594211 words of font info for 99 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 57i,12n,65p,863b,277s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 627422 bytes).
+ 75i,12n,79p,863b,1312s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/luiz/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (9 pages, 1218687 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 367 words of extra memory for PDF output out of 10000 (max. 10000000)
 
