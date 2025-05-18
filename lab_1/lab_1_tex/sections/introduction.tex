@@ -128,12 +128,79 @@ Outra alternativa mais robusta é o uso de um PLL (Phase-Locked Loop), um circui
     \centering
 \end{figure}
 
-\subsection{Modulação AM convencional}
+\subsection{Modulação AM Convencional}
 
-Uma modulação AM convencional consite en em enviar junto a um sinal dsb sc uma compontente na frequencia fc.
+Um sinal AM convencional consiste em uma componente portadora de grande amplitude, além do sinal modulado em DSB-AM. O sinal transmitido pode ser expresso matematicamente como:
 
+\begin{equation}
+u(t) = A_c[1 + m(t)] \cos(2\pi f_c t)
+\end{equation}
 
-Ac[1 + m(t)] cos 2pi fc t
+onde $m(t)$ representa o sinal mensagem, o qual deve satisfazer a condição $|m(t)| \leq 1$ para garantir que a envoltória do sinal modulado permaneça sempre positiva. A componente $A_c m(t) \cos(2\pi f_c t)$ constitui o sinal DSB-AM, enquanto $A_c \cos(2\pi f_c t)$ representa a portadora.
+
+A Figura~\ref{fig:am_envoltoria} ilustra a envoltória do sinal modulado:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.3\textwidth]{images/envoltoria.png}
+    \caption{Envoltoria do Sinal AM. Fonte: Proakis}
+    \label{fig:am_envoltoria}
+    \centering
+\end{figure}
+
+Na prática, o sinal $m(t)$ é escalado para garantir que sua magnitude esteja sempre dentro do intervalo desejado. Uma forma conveniente de fazer isso é expressar:
+
+\begin{equation}
+m(t) = a m_n(t)
+\end{equation}
+
+em que $m_n(t)$ é o sinal normalizado tal que seu valor mínimo é $-1$, definido por:
+
+\begin{equation}
+m_n(t) = \frac{m(t)}{\max |m(t)|}
+\end{equation}
+
+Nesse caso, o fator de escala $a$ é chamado de índice de modulação, sendo um valor constante geralmente menor que 1. Como $|m_n(t)| \leq 1$ e $0 < a < 1$, tem-se que $1 + a m_n(t) > 0$, evitando sobremodulação. Assim, o sinal modulado pode ser reescrito como:
+
+\begin{equation}
+u(t) = A_c[1 + a m_n(t)] \cos(2\pi f_c t)
+\end{equation}
+
+\subsubsection*{Espectro do Sinal AM Convencional}
+
+Se $m(t)$ possui transformada de Fourier $M(f)$, o espectro do sinal modulado $u(t)$ será:
+
+\begin{equation}
+U(f) = \mathcal{F}\{A_c a m_n(t) \cos(2\pi f_c t)\} + \mathcal{F}\{A_c \cos(2\pi f_c t)\}
+\end{equation}
+
+\begin{equation}
+U(f) = \frac{A_c a}{2}[M_n(f - f_c) + M_n(f + f_c)] + \frac{A_c}{2}[\delta(f - f_c) + \delta(f + f_c)]
+\end{equation}
+
+Portanto, o espectro de um sinal AM convencional ocupa uma largura de banda que é o dobro da largura de banda do sinal mensagem. A Figura \ref{fig:am_espectro}  apresenta o espectro $M(f)$.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.3\textwidth]{images/espectro_am.png}
+\caption{Sinal AM convencional no domínio do tempo e da frequência. Fonte: Proakis} 
+\label{fig:am_espectro}
+\end{figure}
+
+A geração de um sinal AM pode ser feita utilziando um gerador de onda quadrada e um filtro passa banda
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.3\textwidth]{images/blocos_amd_con.png}
+\caption{Sinal no dominio da frequencia. Fonte: Tutorialspoint} 
+\label{fig:diagrama_blocos_am_convencional}
+\end{figure}
+
+\subsection{demodulacao AM}
+
+Existem diversas tencnias para demodular um sinal AM, neste trabalho iremos utilizar o detector de envoltoria. Basicamente
+consiste em usar um circuito com um diodo e um filtro passa baixa.
+
 
 
 

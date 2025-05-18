@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1747527567.56599 "/home/luiz/Documentos/Faculdade/Pricom/pricom/lab_1/lab_1_tex/main.tex" "main.pdf" "main" 1747527568.62811 0
+["pdflatex"] 1747529958.92901 "/home/luiz/Documentos/Faculdade/Pricom/pricom/lab_1/lab_1_tex/main.tex" "main.pdf" "main" 1747529959.95717 0
   "/home/luiz/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1747504163.23348 31418 60358cbc7296595e684ea3fe1e0cd1f5 ""
   "/home/luiz/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1746113618.70666 8796830 ae8940ff83a69084676ee6fab25fd267 ""
   "/home/luiz/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc" 1747150758.0293 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
@@ -79,15 +79,17 @@
   "images/demodulacao_am_dsb_freq.png" 1747525239.51108 22223 482318c2679e3732b6364de821284872 ""
   "images/demodulacao_am_pll.png" 1747521527.3791 10913 a2b3c38b06cebde8ebde328f21510aec ""
   "images/demodulacao_gnu_am_dscb_sc.png" 1747522841.21642 50708 9f9a17bf24747ed5ef066ee673d88138 ""
+  "images/envoltoria.png" 1747529061.894 41339 5b96ec360bcd9d175ad15904b79a59f3 ""
+  "images/espectro_am.png" 1747529706.34833 10347 cf5e3c887c8276242c70059ed188a0cb ""
   "images/falta_sincronismo_dsb.png" 1747525743.2312 20805 b6d3dfbf9164d2e4a694be0da728757a ""
   "images/modulacao_am.png" 1747508046.31358 16499 17f48b9d65d6918bc61f82476da5f561 ""
   "images/modulacao_gnu_am_dsb_sc.png" 1747522792.59147 83857 9e48134fa96c0c0e807ba1caf5c7b0d0 ""
   "images/sinais_freqe_gnu.png" 1747524920.03677 30038 29119ae024d36133fcded270accb1778 ""
-  "main.aux" 1747527568.53438 4372 66908216a49c308fc60afd97a9ba3da3 "pdflatex"
+  "main.aux" 1747529959.86282 4797 1693ad78c520867e5775cf4294d9786f "pdflatex"
   "main.tex" 1747504398.16458 1622 094917da5873420e65d36f520e78187c ""
   "sections/discussion.tex" 1747504424.45196 22 03cf3fe20e7814d8a9bdbe6760cff4e0 ""
   "sections/experiments.tex" 1747503786.57845 23 742e9e39a94ff88fa16f539e2174ea86 ""
-  "sections/introduction.tex" 1747527565.96527 7929 cd1d47aeb0464298cc65fbf710d19b87 ""
+  "sections/introduction.tex" 1747529957.53676 10142 2833767fc332b499260a043b151f9b1b ""
   "sections/methodology.tex" 1747526391.9468 3627 73e300d24b9db8f6d9d9cf082712d973 ""
   "sections/references.tex" 1747521606.14919 435 622b866369e53a2327ef540d961b1f51 ""
   "sections/results.tex" 1747526251.86664 2296 2c315c5b055b1f327cc330252b584f25 ""
