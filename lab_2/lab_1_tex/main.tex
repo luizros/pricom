@@ -1,0 +1,80 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage{inputenc}[utf8]
+\usepackage[brazil]{babel}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\renewcommand{\lstlistingname}{Código} % Altera "Listing" para "Código"
+\usepackage{xcolor} % Para cores
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{white},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+\title{Relatório de Modulação FM}
+
+\author{
+\IEEEauthorblockN{Luiz Felipe Rodrigues e Silva}
+\IEEEauthorblockA{
+\textit{Universidade de Brasília} \\
+Brasília-DF, Brasil \\
+luizrodriguesesilva@outlook.com.br}
+}
+
+\maketitle
+
+\fancyhead{}
+\fancyhead[L]{Relatório 2 - Modulação em Frequência \\ Pricípios de Comunicação para Engenharia}
+
+\begin{abstract}
+Este trabalho aborda a modulação em frequência (FM), uma técnica de modulação amplamente utilizada em sistemas de comunicação. A FM é caracterizada pela variação da frequência da portadora em resposta às mudanças na amplitude do sinal de entrada. Este relatório explora os princípios fundamentais da FM, incluindo a modulação de portadora suprimida e a demodulação do sinal transmitido. Utilizando o GNU Radio, um ambiente de desenvolvimento de software livre para processamento de sinais, foram implementados experimentos práticos para demonstrar a eficácia da modulação FM em comparação com outras técnicas, como a modulação AM. Os resultados obtidos mostram que a FM oferece vantagens significativas em termos de resistência a ruídos e interferências, tornando-a uma escolha preferencial para muitas aplicações de comunicação.
+\end{abstract}
+
+\begin{IEEEkeywords}
+modulação em amplitude, AM, portadora suprimida, SC, GNU Radio, transmissão analógica, demodulação, análise de sinais.
+\end{IEEEkeywords}
+
+\input{sections/introduction}
+\input{sections/methodology}
+% \input{sections/experiments}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/references}
+\input{sections/apendices}
+
+\vspace{12pt}
+\end{document}
+

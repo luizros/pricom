@@ -1,0 +1,140 @@
+\section{Introdução}
+
+A \textbf{modulação em frequência (FM)} é uma técnica de modulação angular na qual a \textbf{frequência instantânea} de uma portadora varia proporcionalmente à amplitude do sinal de mensagem. Diferente da modulação em amplitude (AM), que altera a amplitude da portadora, na FM a amplitude permanece constante, e é a frequência quem transporta a informação.
+
+Essa característica confere à FM uma \textbf{alta imunidade a ruídos e interferências}, visto que a maioria dos ruídos afeta principalmente a amplitude dos sinais. Por esse motivo, a FM é amplamente utilizada em radiodifusão sonora, comunicações via rádio, sistemas móveis, rádio amador e transmissão de dados.
+
+O sinal FM pode ser representado matematicamente por:
+
+\begin{equation}
+s(t) = A_c \cdot \cos \left( 2\pi f_c t + 2\pi k_f \int m(\tau) d\tau \right)
+\end{equation}
+
+onde:  
+\begin{itemize}
+    \item $s(t)$ = sinal modulado
+    \item $A_c$ = amplitude da portadora (constante)
+    \item $f_c$ = frequência da portadora (Hz)
+    \item $k_f$ = sensibilidade de frequência (Hz/V)
+    \item $m(t)$ = sinal de mensagem (em volts)
+\end{itemize}
+
+O termo de fase instantânea é dado por:
+
+\begin{equation}
+\phi(t) = 2\pi k_f \int m(\tau) d\tau
+\end{equation}
+
+e a frequência instantânea do sinal FM é:
+
+\begin{equation}
+f_i(t) = f_c + k_f \cdot m(t)
+\end{equation}
+
+O desvio máximo de frequência, denotado por $\Delta f$, ocorre quando o sinal de mensagem atinge seu valor máximo $M_p$:
+
+\begin{equation}
+\Delta f = k_f \cdot M_p
+\end{equation}
+
+O \textbf{índice de modulação} $\beta$ é uma grandeza adimensional que expressa a relação entre o desvio máximo de frequência e a frequência máxima do sinal de mensagem:
+
+\begin{equation}
+\beta = \frac{\Delta f}{f_m}
+\end{equation}
+
+onde:
+\begin{itemize}
+    \item $\Delta f$ = desvio máximo da frequência (Hz)
+    \item $f_m$ = frequência máxima do sinal de mensagem (Hz)
+\end{itemize}
+
+O índice de modulação $\beta$ determina o comportamento do sinal FM:
+\begin{itemize}
+    \item Se $\beta < 1$, trata-se de uma \textbf{FM de banda estreita (NBFM)};
+    \item Se $\beta > 1$, é uma \textbf{FM de banda larga (WBFM)}, como na radiodifusão comercial.
+\end{itemize}
+
+A largura de banda de um sinal FM pode ser estimada pela \textbf{Regra de Carson}:
+
+\begin{equation}
+BW = 2 \cdot (\Delta f + f_m) = 2 \cdot f_m \cdot (\beta + 1)
+\end{equation}
+
+Essa equação demonstra que, quanto maior o índice de modulação, maior será a largura de banda ocupada pelo sinal no espectro de frequências.
+
+\subsection*{Vantagens da FM}
+\begin{itemize}
+    \item Alta imunidade a ruídos e interferências;
+    \item Maior qualidade de áudio em comparação com a AM;
+    \item Maior eficiência em canais ruidosos.
+\end{itemize}
+
+\subsection*{Desvantagens da FM}
+\begin{itemize}
+    \item Maior ocupação de largura de banda;
+    \item Sistemas de transmissão e recepção mais complexos.
+\end{itemize}
+
+
+
+\subsection*{Demodulação FM}
+
+Existem diferentes métodos para demodular sinais FM. Nesta seção, são abordados dois métodos clássicos: o \textbf{Discriminador de Frequência} e o \textbf{Discriminador de Fase}.
+
+\subsubsection*{Método por Discriminação de Frequência}
+
+O sinal FM pode ser representado como:
+
+\begin{equation}
+s(t) = A_c \cos\left(2\pi f_c t + 2\pi k_f \int m(t) dt\right)
+\end{equation}
+
+Derivando esse sinal em relação ao tempo, temos:
+
+\begin{align}
+\frac{ds(t)}{dt} =\ & -A_c \left(2\pi f_c + 2\pi k_f m(t)\right) \\
+&  \sin\left(2\pi f_c t + 2\pi k_f \int m(t) dt\right)
+\end{align}
+
+Observa-se que a amplitude do sinal derivado é proporcional a:
+
+\begin{equation}
+|Envelope| = A_c \left(2\pi f_c + 2\pi k_f m(t)\right)
+\end{equation}
+
+Portanto, ao aplicar um detector de envoltória e remover o componente DC correspondente à portadora, é possível recuperar o sinal de mensagem $m(t)$.
+
+O bloco de diagrama deste método consiste em um \textbf{derivador} seguido de um \textbf{detector de envoltória}.
+
+\subsubsection*{Método por Discriminação de Fase}
+
+Neste método, utiliza-se um VCO (Voltage Controlled Oscillator) que gera um sinal em quadratura com a portadora do sinal FM quando não há modulação.
+
+Seja o sinal FM:
+
+\begin{equation}
+s(t) = A_c \cos\left(2\pi f_c t + \phi(t)\right)
+\end{equation}
+
+E o sinal do VCO:
+
+\begin{equation}
+v(t) = \cos\left(2\pi f_c t - 90^\circ\right)
+\end{equation}
+
+Multiplicando os dois sinais:
+
+\begin{align}
+y(t) &= s(t) \cdot v(t) \\
+&= \frac{A_c}{2} \left[\cos\left(4\pi f_c t + \phi(t) -90^\circ\right) + \cos\left(\phi(t) +90^\circ\right)\right]
+\end{align}
+
+O primeiro termo é um componente de alta frequência, que é eliminado por um filtro passa-baixa, restando:
+
+\begin{equation}
+y_{LPF}(t) = \cos\left(\phi(t) +90^\circ\right)
+\end{equation}
+
+A informação de interesse está na fase $\phi(t)$, cuja derivada é proporcional ao sinal mensagem $m(t)$. Portanto, aplicando um bloco que estima a variação da fase, como o \textit{Quadrature Demod}, é possível recuperar $m(t)$.
+
